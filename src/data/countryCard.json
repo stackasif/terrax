@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "slug": "india",
+    "image": "/country/taj.webp",
+    "flag": "https://flagcdn.com/w320/in.png",
+    "Title": "India",
+    "value": "Asia",
+    "Capital": "New Delhi"
+  },
+  {
+    "id": 2,
+    "slug": "japan",
+    "image": "/country/japan.webp",
+    "flag": "https://flagcdn.com/w320/jp.png",
+    "Title": "Japan",
+    "value": "Asia",
+    "Capital": "Tokyo"
+  },
+  {
+    "id": 3,
+    "slug": "united-states",
+    "image": "/country/usa.webp",
+    "flag": "https://flagcdn.com/w320/us.png",
+    "Title": "United States",
+    "value": "North America",
+    "Capital": "Washington, D.C."
+  },
+  {
+    "id": 4,
+    "slug": "spain",
+    "image": "/country/spain.webp",
+    "flag": "https://flagcdn.com/w320/es.png",
+    "Title": "Spain",
+    "value": "Europe",
+    "Capital": "Madrid"
+  },
+  {
+    "id": 5,
+    "slug": "france",
+    "image": "/country/france.webp",
+    "flag": "https://flagcdn.com/w320/fr.png",
+    "Title": "France",
+    "value": "Europe",
+    "Capital": "Paris"
+  },
+  {
+    "id": 6,
+    "slug": "turkiye",
+    "image": "/country/turkiye.webp",
+    "flag": "https://flagcdn.com/w320/tr.png",
+    "Title": "Türkiye",
+    "value": "Europe and Asia",
+    "Capital": "Ankara"
+  },
+  {
+    "id": 7,
+    "slug": "italy",
+    "image": "/country/italy.webp",
+    "flag": "https://flagcdn.com/w320/it.png",
+    "Title": "Italy",
+    "value": "Europe",
+    "Capital": "Rome"
+  },
+  {
+    "id": 8,
+    "slug": "greece",
+    "image": "/country/greece.webp",
+    "flag": "https://flagcdn.com/w320/gr.png",
+    "Title": "Greece",
+    "value": "Europe",
+    "Capital": "Athens"
+  },
+  {
+    "id": 9,
+    "slug": "mexico",
+    "image": "/country/mexico.webp",
+    "flag": "https://flagcdn.com/w320/mx.png",
+    "Title": "Mexico",
+    "value": "North America",
+    "Capital": "Mexico City"
+  },
+  {
+    "id": 10,
+    "slug": "united-kingdom",
+    "image": "/country/uk.webp",
+    "flag": "https://flagcdn.com/w320/gb.png",
+    "Title": "United Kingdom",
+    "value": "Europe",
+    "Capital": "London"
+  },
+  {
+    "id": 11,
+    "slug": "germany",
+    "image": "/country/germany.webp",
+    "flag": "https://flagcdn.com/w320/de.png",
+    "Title": "Germany",
+    "value": "Europe",
+    "Capital": "Berlin"
+  },
+  {
+    "id": 12,
+    "slug": "china",
+    "image": "/country/china.webp",
+    "flag": "https://flagcdn.com/w320/cn.png",
+    "Title": "China",
+    "value": "Asia",
+    "Capital": "Beijing"
+  },
+  {
+    "id": 13,
+    "slug": "thailand",
+    "image": "/country/thai.webp",
+    "flag": "https://flagcdn.com/w320/th.png",
+    "Title": "Thailand",
+    "value": "Asia",
+    "Capital": "Bangkok"
+  },
+  {
+    "id": 14,
+    "slug": "austria",
+    "image": "/country/austria.webp",
+    "flag": "https://flagcdn.com/w320/at.png",
+    "Title": "Austria",
+    "value": "Europe",
+    "Capital": "Vienna"
+  },
+  {
+    "id": 15,
+    "slug": "united-arab-emirates",
+    "image": "/country/uae.webp",
+    "flag": "https://flagcdn.com/w320/ae.png",
+    "Title": "United Arab Emirates",
+    "value": "Asia",
+    "Capital": "Abu Dhabi"
+  },
+  {
+    "id": 16,
+    "slug": "saudi-arabia",
+    "image": "/country/saudi.webp",
+    "flag": "https://flagcdn.com/w320/sa.png",
+    "Title": "Saudi Arabia",
+    "value": "Asia",
+    "Capital": "Riyadh"
+  },
+  {
+    "id": 17,
+    "slug": "portugal",
+    "image": "/country/portugal.webp",
+    "flag": "https://flagcdn.com/w320/pt.png",
+    "Title": "Portugal",
+    "value": "Europe",
+    "Capital": "Lisbon"
+  },
+  {
+    "id": 18,
+    "slug": "malaysia",
+    "image": "/country/malasiya.webp",
+    "flag": "https://flagcdn.com/w320/my.png",
+    "Title": "Malaysia",
+    "value": "Asia",
+    "Capital": "Kuala Lumpur"
+  },
+  {
+    "id": 19,
+    "slug": "netherlands",
+    "image": "/country/netherland.webp",
+    "flag": "https://flagcdn.com/w320/nl.png",
+    "Title": "Netherlands",
+    "value": "Europe",
+    "Capital": "Amsterdam"
+  },
+  {
+    "id": 20,
+    "slug": "canada",
+    "image": "/country/canada.webp",
+    "flag": "https://flagcdn.com/w320/ca.png",
+    "Title": "Canada",
+    "value": "North America",
+    "Capital": "Ottawa"
+  },
+  {
+    "id": 21,
+    "slug": "switzerland",
+    "image": "/country/switzer.webp",
+    "flag": "https://flagcdn.com/w320/ch.png",
+    "Title": "Switzerland",
+    "value": "Europe",
+    "Capital": "Bern"
+  },
+  {
+    "id": 22,
+    "slug": "south-korea",
+    "image": "/country/south-korea.webp",
+    "flag": "https://flagcdn.com/w320/kr.png",
+    "Title": "South Korea",
+    "value": "Asia",
+    "Capital": "Seoul"
+  },
+  {
+    "id": 23,
+    "slug": "australia",
+    "image": "/country/australia.webp",
+    "flag": "https://flagcdn.com/w320/au.png",
+    "Title": "Australia",
+    "value": "Oceania",
+    "Capital": "Canberra"
+  },
+  {
+    "id": 24,
+    "slug": "singapore",
+    "image": "/country/singapore.webp",
+    "flag": "https://flagcdn.com/w320/sg.png",
+    "Title": "Singapore",
+    "value": "Asia",
+    "Capital": "Singapore"
+  },
+  {
+    "id": 25,
+    "slug": "indonesia",
+    "image": "/country/indonesia.webp",
+    "flag": "https://flagcdn.com/w320/id.png",
+    "Title": "Indonesia",
+    "value": "Asia",
+    "Capital": "Jakarta"
+  },
+  {
+    "id": 26,
+    "slug": "vietnam",
+    "image": "/country/vietnam.webp",
+    "flag": "https://flagcdn.com/w320/vn.png",
+    "Title": "Vietnam",
+    "value": "Asia",
+    "Capital": "Hanoi"
+  },
+  {
+    "id": 27,
+    "slug": "brazil",
+    "image": "/country/brazil.webp",
+    "flag": "https://flagcdn.com/w320/br.png",
+    "Title": "Brazil",
+    "value": "South America",
+    "Capital": "Brasília"
+  },
+  {
+    "id": 28,
+    "slug": "south-africa",
+    "image": "/country/south-africa.webp",
+    "flag": "https://flagcdn.com/w320/za.png",
+    "Title": "South Africa",
+    "value": "Africa",
+    "Capital": "Pretoria (administrative); Cape Town (legislative); Bloemfontein (judicial)"
+  },
+  {
+    "id": 29,
+    "slug": "egypt",
+    "image": "/country/egypt.webp",
+    "flag": "https://flagcdn.com/w320/eg.png",
+    "Title": "Egypt",
+    "value": "Africa",
+    "Capital": "Cairo"
+  },
+  {
+    "id": 30,
+    "slug": "morocco",
+    "image": "/country/morocco.webp",
+    "flag": "https://flagcdn.com/w320/ma.png",
+    "Title": "Morocco",
+    "value": "Africa",
+    "Capital": "Rabat"
+  },
+  {
+    "id": 31,
+    "slug": "ireland",
+    "image": "/country/ireland.webp",
+    "flag": "https://flagcdn.com/w320/ie.png",
+    "Title": "Ireland",
+    "value": "Europe",
+    "Capital": "Dublin"
+  },
+  {
+    "id": 32,
+    "slug": "belgium",
+    "image": "/country/belgium.webp",
+    "flag": "https://flagcdn.com/w320/be.png",
+    "Title": "Belgium",
+    "value": "Europe",
+    "Capital": "Brussels"
+  },
+  {
+    "id": 33,
+    "slug": "czechia",
+    "image": "/country/czechia.webp",
+    "flag": "https://flagcdn.com/w320/cz.png",
+    "Title": "Czechia",
+    "value": "Europe",
+    "Capital": "Prague"
+  },
+  {
+    "id": 34,
+    "slug": "poland",
+    "image": "/country/poland.webp",
+    "flag": "https://flagcdn.com/w320/pl.png",
+    "Title": "Poland",
+    "value": "Europe",
+    "Capital": "Warsaw"
+  },
+  {
+    "id": 35,
+    "slug": "croatia",
+    "image": "/country/croatia.webp",
+    "flag": "https://flagcdn.com/w320/hr.png",
+    "Title": "Croatia",
+    "value": "Europe",
+    "Capital": "Zagreb"
+  },
+  {
+    "id": 36,
+    "slug": "argentina",
+    "image": "/country/argentina.webp",
+    "flag": "https://flagcdn.com/w320/ar.png",
+    "Title": "Argentina",
+    "value": "South America",
+    "Capital": "Buenos Aires"
+  },
+  {
+    "id": 37,
+    "slug": "chile",
+    "image": "/country/chile.webp",
+    "flag": "https://flagcdn.com/w320/cl.png",
+    "Title": "Chile",
+    "value": "South America",
+    "Capital": "Santiago"
+  },
+  {
+    "id": 38,
+    "slug": "new-zealand",
+    "image": "/country/newzeland.webp",
+    "flag": "https://flagcdn.com/w320/nz.png",
+    "Title": "New Zealand",
+    "value": "Oceania",
+    "Capital": "Wellington"
+  },
+  {
+    "id": 39,
+    "slug": "peru",
+    "image": "/country/peru.webp",
+    "flag": "https://flagcdn.com/w320/pe.png",
+    "Title": "Peru",
+    "value": "South America",
+    "Capital": "Lima"
+  },
+  {
+    "id": 40,
+    "slug": "colombia",
+    "image": "/country/colombia.webp",
+    "flag": "https://flagcdn.com/w320/co.png",
+    "Title": "Colombia",
+    "value": "South America",
+    "Capital": "Bogotá"
+  },
+  {
+    "id": 41,
+    "slug": "philippines",
+    "image": "/country/phillipins.webp",
+    "flag": "https://flagcdn.com/w320/ph.png",
+    "Title": "Philippines",
+    "value": "Asia",
+    "Capital": "Manila"
+  },
+  {
+    "id": 42,
+    "slug": "sri-lanka",
+    "image": "/country/srilanka.webp",
+    "flag": "https://flagcdn.com/w320/lk.png",
+    "Title": "Sri Lanka",
+    "value": "Asia",
+    "Capital": "Sri Jayawardenepura Kotte"
+  },
+  {
+    "id": 43,
+    "slug": "nepal",
+    "image": "/country/nepal.webp",
+    "flag": "https://flagcdn.com/w320/np.png",
+    "Title": "Nepal",
+    "value": "Asia",
+    "Capital": "Kathmandu"
+  },
+  {
+    "id": 44,
+    "slug": "jordan",
+    "image": "/country/jordan.webp",
+    "flag": "https://flagcdn.com/w320/jo.png",
+    "Title": "Jordan",
+    "value": "Asia",
+    "Capital": "Amman"
+  },
+  {
+    "id": 46,
+    "slug": "qatar",
+    "image": "/country/qatar.webp",
+    "flag": "https://flagcdn.com/w320/qa.png",
+    "Title": "Qatar",
+    "value": "Asia",
+    "Capital": "Doha"
+  },
+  {
+    "id": 47,
+    "slug": "norway",
+    "image": "/country/norway.webp",
+    "flag": "https://flagcdn.com/w320/no.png",
+    "Title": "Norway",
+    "value": "Europe",
+    "Capital": "Oslo"
+  },
+  {
+    "id": 48,
+    "slug": "sweden",
+    "image": "/country/sweden.webp",
+    "flag": "https://flagcdn.com/w320/se.png",
+    "Title": "Sweden",
+    "value": "Europe",
+    "Capital": "Stockholm"
+  },
+  {
+    "id": 49,
+    "slug": "denmark",
+    "image": "/country/denmark.webp",
+    "flag": "https://flagcdn.com/w320/dk.png",
+    "Title": "Denmark",
+    "value": "Europe",
+    "Capital": "Copenhagen"
+  },
+  {
+    "id": 50,
+    "slug": "finland",
+    "image": "/country/finland.webp",
+    "flag": "https://flagcdn.com/w320/fi.png",
+    "Title": "Finland",
+    "value": "Europe",
+    "Capital": "Helsinki"
+  }
+]

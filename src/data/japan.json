@@ -1,0 +1,176 @@
+[  
+{
+  "id": 9,
+  "slug": "japan",
+  "page": {
+    "title": "Japan",
+    "language": "en",
+    "hero": {
+      "country_name": "Japan",
+      "country_name_native": "日本 (Nihon / Nippon)",
+       "country_flag":"",
+      "tagline": "A land of timeless traditions and modern innovation",
+      "background_image": "https://images.pexels.com/photos/4336279/pexels-photo-4336279.jpeg",
+      "background_image_alt": "Mount Fuji, a traditional Japanese pagoda and cherry blossoms",
+      "capital": {
+        "label": "Capital",
+        "value": "Tokyo"
+      },
+      "continent": {
+        "label": "Continent",
+        "value": "Asia"
+      },
+      "official_language": {
+        "label": "Official Language(s)",
+        "value": "Japanese"
+      },
+      "buttons": [
+        {
+          "label": "Explore Japan",
+          "action": "explore_japan"
+        },
+        {
+          "label": "View on Map",
+          "action": "view_on_map"
+        },
+        {
+          "label": "Add to Favourites",
+          "action": "add_to_favourites"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "id": "about_japan",
+        "eyebrow": "ABOUT JAPAN",
+        "title": "A Unique Blend of Tradition and Innovation",
+        "paragraph": "Japan is an island country in East Asia, known for its rich culture, ancient traditions, modern cities and breathtaking natural beauty. It is a country where centuries-old temples stand alongside futuristic skyscrapers, where cherry blossoms bloom in spring, and where technology and tradition exist in perfect harmony. Japan is famous for its warm hospitality, delicious cuisine, stunning landscapes and unique cultural experiences such as tea ceremonies, colourful festivals and historic shrines. From the bustling streets of Tokyo to the peaceful temples of Kyoto, from snow-covered mountains to tropical beaches, Japan offers diverse experiences for every kind of traveller.",
+        "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=85",
+        "image_alt": "Traditional Japanese architecture and historic streets"
+      },
+      {
+        "id": "tourism_famous_places_japan",
+        "eyebrow": "TOURISM & FAMOUS PLACES",
+        "title": "Top Tourist Attractions",
+        "paragraph": "Japan is home to world-famous attractions, from historic temples and castles to stunning natural landscapes. Explore vibrant cities, beautiful countryside and unique cultural sites.Discover Japan’s rich traditions, savor its world-renowned cuisine, and experience the perfect blend of ancient heritage and modern innovation.",
+        "items": [
+          {
+            "title": "Mount Fuji",
+            "description": "Japan's iconic mountain and a symbol of natural beauty.",
+            "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Mount Fuji and Japanese scenery"
+          },
+          {
+            "title": "Fushimi Inari Shrine",
+            "description": "Famous for thousands of red torii gates in Kyoto.",
+            "image": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Traditional Japanese shrine and torii gates"
+          },
+          {
+            "title": "Osaka Castle",
+            "description": "A historic landmark surrounded by beautiful grounds.",
+            "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Japanese castle architecture"
+          },
+          {
+            "title": "Tokyo Skytree",
+            "description": "A landmark tower offering views across Tokyo.",
+            "image": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Tokyo city skyline"
+          }
+        ]
+      },
+      {
+        "id": "food_cuisine_japan",
+        "eyebrow": "FOOD & CUISINE",
+        "title": "Delicious Flavours of Japan",
+        "paragraph": "Japanese cuisine is famous for its fresh ingredients, beautiful presentation and distinctive flavours. Discover traditional dishes, popular street food and regional specialities.From delicate sushi and comforting ramen to delicious tempura and sweet mochi, Japanese cuisine offers an unforgettable culinary journey through Japan’s rich culture and traditions.",
+        "dishes": [
+          {
+            "title": "Sushi",
+            "description": "A traditional dish with fresh fish and seasoned rice.",
+            "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Fresh sushi arranged on a plate"
+          },
+          {
+            "title": "Ramen",
+            "description": "A popular noodle soup with rich flavours.",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Japanese ramen noodle soup"
+          },
+          {
+            "title": "Tempura",
+            "description": "Light and crispy fried seafood and vegetables.",
+            "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Japanese food served on a plate"
+          },
+          {
+            "title": "Mochi",
+            "description": "A traditional Japanese rice cake enjoyed as a dessert.",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=85",
+            "image_alt": "Japanese sweets and desserts"
+          }
+        ],
+        "information_cards": [
+          {
+            "title": "Traditional & National Dishes",
+            "description": "Sushi, Ramen, Tempura, Udon, Soba, Sukiyaki, Yakitori"
+          },
+          {
+            "title": "Famous Street Food",
+            "description": "Takoyaki, Okonomiyaki, Yakitori, Taiyaki"
+          },
+          {
+            "title": "Popular Drinks & Desserts",
+            "description": "Green Tea, Sake, Matcha Desserts, Mochi"
+          },
+          {
+            "title": "Vegetarian, Vegan & Halal Options",
+            "description": "Availability varies by location. Check ingredients and preparation with restaurants."
+          },
+          {
+            "title": "Regional Cuisines",
+            "description": "Hokkaido seafood, Kansai specialities, Kyushu ramen and Okinawan dishes."
+          },
+          {
+            "title": "Approximate Meal Cost",
+            "description": "Meal prices vary by city and restaurant. Check current local prices before travelling."
+          }
+        ]
+      },
+      {
+        "id": "weather_best_time_to_visit_japan",
+        "eyebrow": "WEATHER & BEST TIME TO VISIT",
+        "title": "Climate and Best Time to Visit",
+        "paragraph": "Japan experiences four distinct seasons, each offering unique scenery. Spring brings cherry blossoms, summer offers lush landscapes, autumn features colourful foliage, and winter brings snow to many regions. Spring and autumn are especially popular times to visit.Each season also offers seasonal festivals, traditional foods, and cultural events that allow visitors to experience Japan’s rich traditions and natural beauty.",
+        "seasons": [
+          {
+            "title": "Spring",
+            "months": "(Mar – May)",
+            "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=500&q=85",
+            "image_alt": "Pink cherry blossoms in spring"
+          },
+          {
+            "title": "Summer",
+            "months": "(Jun – Aug)",
+            "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=500&q=85",
+            "image_alt": "Green summer landscape"
+          },
+          {
+            "title": "Autumn",
+            "months": "(Sep – Nov)",
+            "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=500&q=85",
+            "image_alt": "Autumn foliage and colourful trees"
+          },
+          {
+            "title": "Winter",
+            "months": "(Dec – Feb)",
+            "image": "https://images.unsplash.com/photo-1483664852095-d6cc6870702d?auto=format&fit=crop&w=500&q=85",
+            "image_alt": "Snow-covered winter landscape"
+          }
+        ]
+      }
+    ]
+  }
+}
+]
