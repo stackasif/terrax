@@ -7,7 +7,7 @@ import { FaInstagram,FaYoutube,FaXTwitter  } from "react-icons/fa6";
 function Footer() {
   
   return (
-    <footer className="w-full border-t border-amber-500/20 bg-[#071727] px-6 py-6 text-white md:px-12 mt-12">
+    <footer className="w-full border-t border-amber-500/20 bg-[#071727] px-6 py-6 text-white md:px-12 ">
       {/* Top Section */}
       <div className="flex flex-col items-center justify-between gap-6 border-b border-gray-600/60 pb-4 md:flex-row">
         {/* Logo */}

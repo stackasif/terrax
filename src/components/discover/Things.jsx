@@ -1,3 +1,5 @@
+import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const articles = [
   {
@@ -44,20 +46,31 @@ const articles = [
 export default function Things() {
   return (
     <main className="min-h-screen bg-[#f3f6fb] px-4 py-8 sm:px-6 sm:py-12 lg:px-10">
-      <div className="mx-auto max-w-[1440px]">
+      <div className="mx-auto max-w-[1280px]">
         {/* Page Header */}
         <header className="mb-8 sm:mb-10">
-          <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-600 sm:text-sm">
-            Curious Facts
-            <span className="px-2 text-slate-300">·</span>
-            Real Stories
-            <span className="px-2 text-slate-300">·</span>
-            A Deeper World
-          </p>
+          <div className="flex justify-between items-center ">
+            <div>
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-600 sm:text-sm">
+                Curious Facts
+                <span className="px-2 text-slate-300">·</span>
+                Real Stories
+                <span className="px-2 text-slate-300">·</span>
+                A Deeper World
+              </p>
 
-          <h1 className="text-4xl font-extrabold leading-tight tracking-[-0.045em] text-[#102746] sm:text-5xl lg:text-6xl">
-            Things You Never Knew
-          </h1>
+              <h1 className="text-4xl font-extrabold leading-tight tracking-[-0.045em] text-[#102746] sm:text-5xl lg:text-6xl">
+                Things You Never Knew
+              </h1>
+            </div>
+             <Link
+                href={"/discover"}
+                className="bg-blue-100 mr-4 hover:bg-cyan-200 text-gray-800 rounded-full font-semibold inline-flex items-center gap-1 cursor-pointer p-3 border border-gray-300 text-[13px] shrink-0 self-center"
+              >
+                        Discover more
+                    <ChevronRight className="w-[15px] h-[15px]" />
+            </Link>
+          </div>
 
           <p className="mt-4 max-w-4xl text-base leading-7 text-slate-500 sm:text-lg sm:leading-8">
             Surprising facts, incredible stories, and hidden science

@@ -76,14 +76,14 @@ function Page() {
         <div className="flex flex-1 items-center justify-between p-2 gap-2">
           <div className="flex items-center gap-2 min-w-0 flex-1">
             
-<Image
-  src={item.flag}
-  alt={item.Title}
-  width={30}
-  height={20}
-  style={{ width: "28px", height: "auto" }}
-  className="object-contain shrink-0"
-/>
+              <Image
+                src={item.flag}
+                alt={item.Title}
+                width={30}
+                height={20}
+                style={{ width: "28px", height: "auto" }}
+                className="object-contain shrink-0"
+              />
 
 
             <div className="flex flex-col min-w-0">
@@ -102,9 +102,9 @@ function Page() {
           </div>
 
           <Link
-  href={`/country/${item.slug}`}
-  className="bg-gray-200 hover:bg-gray-300 text-gray-800 rounded font-semibold inline-flex items-center gap-1 cursor-pointer px-2 py-1 text-[13px] shrink-0 self-center"
->
+                href={`/country/${item.slug}`}
+                className="bg-gray-200 hover:bg-gray-300 text-gray-800 rounded font-semibold inline-flex items-center gap-1 cursor-pointer px-2 py-1 text-[13px] shrink-0 self-center"
+              >
   Explore
   <ChevronRight className="w-[15px] h-[15px]" />
 </Link>

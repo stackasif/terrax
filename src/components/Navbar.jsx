@@ -35,16 +35,23 @@ export default function Navbar() {
 
               
         </div>
-          <div className="cursor-pointer flex justify-center items-center gap-2">
-            <Search size={24} />
+
+          <form action="" className="flex items-center gap-2 px-4 bg-white w-[65%] md:w-[40%] h-[40%] md:h-[] rounded-md shadow-md" >
+                <input type="text" placeholder="Search countries...." className="w-full outline-none text-[12px] md:text-[14px] py-2" />
+                <Search size={20} className="text-sky-800 font-bold" />
+
+            </form>
+
+          {/* <div className="cursor-pointer flex justify-center items-center gap-2">
+            
              <Menu className=" md:hidden"/>
-          </div>
+          </div> */}
       </div>
     </nav>
     
     </div>
   );
 }
-
+{/* <IoSearch className="w-5 h-5 text-blue-500"/> */}
 
 

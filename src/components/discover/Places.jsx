@@ -8,7 +8,7 @@ const places = [
       "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=90",
     alt: "Dramatic mountain peaks surrounded by clouds",
     description:
-      "Zhangjiajie, China, is famous for its towering sandstone pillars that rise dramatically through forests and drifting clouds. Over millions of years, wind, rain, and erosion sculpted these narrow formations into a landscape that seems almost impossible. When mist settles between the peaks, the mountains appear to float above the valleys, creating an otherworldly scene that has inspired artists, photographers, and travellers from around the world.",
+      "Zhangjiajie, China, is famous for its towering sandstone pillars that rise dramatically through forests and drifting clouds. Over millions of years, wind, rain, and erosion sculpted these narrow formations into a landscape that seems almost impossible. When mist settles between the peaks, the mountains appear to float above the valleys, creating an otherTERRAX scene that has inspired artists, photographers, and travellers from around the world.",
     detail:
       "The region's dramatic pillars, deep ravines, and changing fog make every viewpoint feel different. Early morning is especially atmospheric, when clouds move between the cliffs and reveal the extraordinary scale of this terrain.",
     color: "bg-emerald-100 text-emerald-800",

@@ -53,11 +53,11 @@ export default function Hero() {
         
         <div className="w-full md:w-1/2">
               <h2 className="text-3xl font-bold text-[#10264a] mb-2">
-                What is WORLDLY?
+                What is TERRAX?
               </h2>
 
               <p className="text-[14px] leading-[1.5] text-gray-700">
-                WORLDLY is a simple world information platform created
+                TERRAX is a simple world information platform created
                 to help people explore countries, cities, cultures,
                 destinations and fascinating facts about our planet.
               </p>
@@ -149,11 +149,11 @@ export default function Hero() {
         
         <div className="w-full md:w-1/2">
               <h2 className="text-3xl font-bold text-[#10264a] mb-2">
-                What is WORLDLY?
+                What is TERRAX?
               </h2>
 
               <p className="text-[14px] leading-[1.5] text-gray-700">
-                WORLDLY is a simple world information platform created
+                TERRAX is a simple world information platform created
                 to help people explore countries, cities, cultures,
                 destinations and fascinating facts about our planet.
               </p>
@@ -222,7 +222,7 @@ export default function Hero() {
         </Link>
         <Link
           href="/discover"
-          className="ounded-full bg-blue-500 px-5 py-3 text-[14px] font-semibold text-white hover:bg-blue-700 flex items-center rgap-2" 
+          className="bg-transparent text-white hover:bg-slate-100 hover:text-black text-[14px] font-semibold py-2 px-4 rounded-full flex items-center gap-2 border " 
         >
           Discover the world <MoveRight />
         </Link>
