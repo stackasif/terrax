@@ -4,9 +4,20 @@ import Image from "next/image";
 import logo from "@/assets/logo.png";
 import { Search,Menu  } from "lucide-react";
 import { usePathname } from "next/navigation";
+import { useContext, useEffect } from "react";
+import { dataContext } from "@/app/context/UserContext";
+import countries from '@/data/countryCard.json';
 
 export default function Navbar() {
     const pathname=usePathname()
+    const {input,setInput,card,setCard}=useContext(dataContext)
+
+    useEffect(()=>{
+      let newCard = countries.filter((item) =>
+        item.Title.toLowerCase().includes(input.toLowerCase())
+      );
+      setCard(newCard)
+    },[input])
   return (
     <div className="w-full sticky top-0  bg-white z-50">
       <nav className="w-full max-w-[1280px] mx-auto ">
@@ -36,8 +47,8 @@ export default function Navbar() {
               
         </div>
 
-          <form action="" className="flex items-center gap-2 px-4 bg-white w-[65%] md:w-[40%] h-[40%] md:h-[] rounded-md shadow-md" >
-                <input type="text" placeholder="Search countries...." className="w-full outline-none text-[12px] md:text-[14px] py-2" />
+          <form action="" className="flex items-center gap-2 px-4 bg-white w-[65%] md:w-[40%] h-[40%] md:h-[] rounded-md shadow-md" onSubmit={(e)=>e.preventDefault()} >
+                <input type="text" placeholder="Search countries...." className="w-full outline-none text-[12px] md:text-[14px] py-2" onChange={(e)=>setInput(e.target.value)} value={input} />
                 <Search size={20} className="text-sky-800 font-bold" />
 
             </form>

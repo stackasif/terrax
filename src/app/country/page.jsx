@@ -1,34 +1,44 @@
-import React from 'react'
+'use client'
+import React, { useContext } from 'react'
 import countrybg from '@/assets/countryBg.png'
 import Image from 'next/image'
-import countrycard from '@/data/countryCard'
+// import countrycard from '@/data/countryCard'
 import {Search, ChevronRight} from 'lucide-react'
-import flag from '@/assets/flag.png'
+
 import Link from 'next/link'
+import { dataContext } from '../context/UserContext'
+
 function Page() {
+
+  let{card,input}=useContext(dataContext)
+  console.log("Input value:", input);
+console.log("Input type:", typeof input);
+
   return (
     <>
-      <section className='relative w-full h-75 overflow-hidden'>
-        <Image
-          src={countrybg}
-          alt="Earth image"
-          fill
-          priority
-          sizes="100vw"
-          className='object-top'
-        />
+     {input.trim().length === 0 && (
+  <section className="relative w-full h-75 overflow-hidden">
+    <Image
+      src={countrybg}
+      alt="Earth image"
+      fill
+      priority
+      sizes="100vw"
+      className="object-cover object-top"
+    />
 
-        <div className="absolute inset-0 z-10">
-          <div className="mx-auto flex h-full w-full max-w-7xl flex-col items-start justify-center px-4 text-white">
-            <h1 className="text-[60px]">
-              Explore Countries
-            </h1>
-            <p className='text-[16px]'>
-              Discover countries, their people, place and facinating fact.
-            </p>
-          </div>
-        </div>
-      </section>
+    <div className="absolute inset-0 z-10">
+      <div className="mx-auto flex h-full w-full max-w-7xl flex-col items-start justify-center px-4 text-white">
+        <h1 className="text-[60px]">
+          Explore Countries
+        </h1>
+        <p className="text-[16px]">
+          Discover countries, their people, place and fascinating fact.
+        </p>
+      </div>
+    </div>
+  </section>
+)}
       <div className='mx-auto max-w-7xl '>
         <div className="flex w-full gap-4 my-5">
           
@@ -57,7 +67,7 @@ function Page() {
       {/* card section  */}
       
 <div className="mx-auto max-w-7xl flex flex-wrap justify-center gap-6">
-  {countrycard.map((item, ind) => {
+  {card.map((item, ind) => {
     return (
       <div
         key={ind}

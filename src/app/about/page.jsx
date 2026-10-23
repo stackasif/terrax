@@ -1,6 +1,6 @@
 import Image from "next/image";
 import earth from '@/assets/aboutEarth.png'
-import france from '@/assets/france.png'
+import world from '@/assets/world.png'
 import sunset from '@/assets/sunset.png'
 import globe from '@/assets/globe.svg'
 import Link from "next/link";
@@ -44,7 +44,7 @@ export default function Hero() {
         
         <div className="w-full md:w-1/2">
           <Image
-            src={france}
+            src={earth}
             alt="Planet Earth"
             className="w-full h-[350px] object-cover rounded-lg"
           />
@@ -149,32 +149,25 @@ export default function Hero() {
         
         <div className="w-full md:w-1/2">
               <h2 className="text-3xl font-bold text-[#10264a] mb-2">
-                What is TERRAX?
+                One planet. Many worlds.
               </h2>
 
               <p className="text-[14px] leading-[1.5] text-gray-700">
-                TERRAX is a simple world information platform created
-                to help people explore countries, cities, cultures,
-                destinations and fascinating facts about our planet.
+                Our world is home to a remarkable mix of countries, languages, cultures, landscapes and traditions. From bustling cities and peaceful villages to vast mountains, deserts, forests and oceans, every part of Earth has its own unique story.
               </p>
                 <br />
               <p className="text-[14px] leading-[1.5] text-gray-700">
-                We bring useful information about the world together
-                in a clean, visual and easy way — from countries and
-                cities to cultures, natural wonders and interesting facts.
-                Our goal is to make it easy for anyone to learn, discover
-                and be inspired by the amazing diversity of our planet.
-                We bring useful information about the world together
-                in a clean, visual and easy way — from countries and
-                cities to cultures, natural wonders and interesting facts.
-                Our goal is to make it easy for anyone to learn, discover
-                and be inspired by the amazing diversity of our planet.
+                Our world is full of wonders that inspire us and remind us of the beauty of nature and humanity. Every country has its own history, customs, festivals, food, music, and art that reflect the lives and values of its people. From the snowy peaks of the Himalayas to the golden sands of vast deserts, from lush green forests to crystal-clear lakes, Earth offers countless breathtaking sights.
+              </p>
+              <br />
+              <p className="text-[14px] leading-[1.5] text-gray-700">
+                Ultimately, Earth is more than just a planet; it is our shared home, filled with life, beauty, and endless possibilities. Its diversity makes it extraordinary, while our shared humanity makes us connected. By celebrating our differences and working together, we can ensure that our world remains a wonderful place for generations to come.
               </p>
         </div>
 
         <div className="w-full md:w-1/2">
           <Image
-            src={france}
+            src={world}
             alt="Planet Earth"
             className="w-full h-[350px] object-cover rounded-lg"
           />
@@ -190,7 +183,7 @@ export default function Hero() {
   <section className="relative h-[450px] w-full overflow-hidden">
     
     <Image
-      src={sunset}
+      src={earth}
       alt="earth image"
       fill
       priority
@@ -216,13 +209,13 @@ export default function Hero() {
        <div className="flex gap-2">
          <Link
           href="/country"
-          className="rounded-full bg-blue-500 px-5 py-3 text-[14px] font-semibold text-white hover:bg-blue-700 flex items-center gap-2" 
+          className="rounded-full bg-blue-500 px-3 md:px-5 py-1 md:py-3 text-[12px] md:text-[14px] font-medium md:font-semibold text-white hover:bg-blue-700 flex items-center gap-2" 
         >
           Explore countries <MoveRight />
         </Link>
         <Link
           href="/discover"
-          className="bg-transparent text-white hover:bg-slate-100 hover:text-black text-[14px] font-semibold py-2 px-4 rounded-full flex items-center gap-2 border " 
+          className="bg-transparent text-white hover:bg-slate-100 hover:text-black text-[12px] md:text-[14px] font-medium md:font-semibold py-0 md:py-2 px-3 md:px-5 rounded-full flex items-center gap-2 border " 
         >
           Discover the world <MoveRight />
         </Link>

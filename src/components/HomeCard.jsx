@@ -1,11 +1,15 @@
-import React from 'react'
+'use client'
+import React, { useContext, useState } from 'react'
 import countries from '@/data/countryCard.json'
 import Image from 'next/image';
 import Link from 'next/link';
 import {Search, ChevronRight} from 'lucide-react'
+import { dataContext } from '@/app/context/UserContext';
 
 
 function HomeCard() {
+  let {card,setCard}=useContext(dataContext)
+  
   return (
     <>
     <div className='mx-auto max-w-7xl flex justify-between items-center py-5 px-3'>
@@ -28,7 +32,7 @@ function HomeCard() {
 
     <div className="mx-auto max-w-7xl flex flex-wrap justify-center gap-6">
         
-  {countries.slice(0,8).map((item, ind) => {
+  {card.slice(0,8).map((item, ind) => {
     return (
       <div
         key={ind}
