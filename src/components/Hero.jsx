@@ -18,7 +18,7 @@ export default function Hero() {
   
   <div className="absolute inset-0 z-10">
     <div className="mx-auto flex h-full w-full max-w-[1280px] flex-col items-start justify-center px-4 pb-2 text-white">
-      <p className="text-sm text-gray-300">
+      <p className="text-sm text-gray-300" data-aos="fade-right">
         A MORE CONNECTED PLANET
       </p>
 

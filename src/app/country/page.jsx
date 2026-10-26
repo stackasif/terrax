@@ -1,5 +1,5 @@
 'use client'
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import countrybg from '@/assets/countryBg.png'
 import Image from 'next/image'
 // import countrycard from '@/data/countryCard'
@@ -9,8 +9,18 @@ import Link from 'next/link'
 import { dataContext } from '../context/UserContext'
 
 function Page() {
+  let [selectedContinent,setSelectedContinent]=useState("")
 
-  let{card,input}=useContext(dataContext)
+  let{card,input,setInput}=useContext(dataContext)
+
+  const filteredCountries = card.filter((country) => {
+  return (
+    selectedContinent === "" ||
+    country.value === selectedContinent
+  );
+});
+
+
   console.log("Input value:", input);
 console.log("Input type:", typeof input);
 
@@ -39,40 +49,55 @@ console.log("Input type:", typeof input);
     </div>
   </section>
 )}
-      <div className='mx-auto max-w-7xl '>
-        <div className="flex w-full gap-4 my-5">
-          
-          <div className="flex flex-1 items-center gap-3 rounded-2xl border border-gray-200 px-5 py-4">
-            <Search />
-            <input
-              type="text"
-              placeholder="Search countries..."
-              className="w-full bg-transparent text-sm outline-none"
-            /> 
-            
-          </div>
+      
+<div className="mx-auto max-w-7xl px-3 sm:px-4">
+  <div className="my-5 flex w-full flex-col gap-3 sm:flex-row sm:gap-4">
 
-          <select className="rounded-2xl border border-gray-200 bg-white px-5 py-4 text-sm outline-none">
-            <option value="">All Continents</option>
-            <option value="asia">Asia</option>
-            <option value="europe">Europe</option>
-            <option value="africa">Africa</option>
-            <option value="north-america">North America</option>
-            <option value="south-america">South America</option>
-            <option value="oceania">Oceania</option>
-          </select>
-        </div>
-      </div>
+    {/* Search Bar */}
+    <div className="flex min-w-0 w-full items-center gap-3 rounded-2xl border border-gray-200 px-3 py-3 sm:flex-1 sm:py-4">
+      <Search className="h-5 w-5 shrink-0 text-gray-500" />
+
+      <form
+        className="min-w-0 flex-1"
+        onSubmit={(e) => e.preventDefault()}
+      >
+        <input
+          type="text"
+          onChange={(e) => setInput(e.target.value)}
+          value={input}
+          placeholder="Search countries..."
+          className="w-full min-w-0 bg-transparent text-sm outline-none placeholder:text-gray-400"
+        />
+      </form>
+    </div>
+
+    {/* Continent Filter */}
+    <select
+      value={selectedContinent}
+      onChange={(e) => setSelectedContinent(e.target.value)}
+      className="w-full rounded-2xl border border-gray-200 bg-white px-3 py-3 text-sm outline-none focus:border-gray-400 sm:w-56 sm:shrink-0 sm:px-4 sm:py-4"
+    >
+      <option value="">All Continents</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Africa">Africa</option>
+      <option value="North America">North America</option>
+      <option value="South America">South America</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+
+  </div>
+</div>
+
 
       {/* card section  */}
       
 <div className="mx-auto max-w-7xl flex flex-wrap justify-center gap-6">
-  {card.map((item, ind) => {
+  {filteredCountries.map((item, ind) => {
     return (
       <div
         key={ind}
-        className="w-[300px] h-[330px] flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md text-sm"
-      >
+       className="w-[340px] md:w-[300px] h-[300px] md:h-[330px] flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md text-sm">
         
         <Image
           src={item.image}
