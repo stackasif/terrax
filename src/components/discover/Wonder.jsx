@@ -46,7 +46,7 @@ export default function Wonders() {
     <main className="min-h-screen bg-[#f4f6fa] px-4 py-8 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         {/* Page heading */}
-        <header className="mb-8">
+        <header className="mb-8" data-aos="fade-right">
           <p className="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-blue-600">
             Natural · Wonders
           </p>
@@ -68,11 +68,12 @@ export default function Wonders() {
         >
           {wonders.map((place) => (
             <article
+            data-aos="fade-up"
               key={place.number}
               className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-[0_8px_30px_rgba(25,45,75,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(25,45,75,0.11)]"
             >
               {/* Image */}
-              <div className="relative h-64 overflow-hidden sm:h-72">
+              <div className="relative h-64 overflow-hidden sm:h-72" data-aos="zoom-in">
                 <img
                   src={place.image}
                   alt={place.alt}
@@ -90,7 +91,7 @@ export default function Wonders() {
               </div>
 
               {/* Content */}
-              <div className="flex flex-1 flex-col p-5 sm:p-6">
+              <div className="flex flex-1 flex-col p-5 sm:p-6" data-aos="fade-right">
                 <div className="mb-4">
                   <span
                     className={`inline-block rounded-full px-3 py-1.5 text-[10px] font-extrabold tracking-[0.09em] ${place.color}`}

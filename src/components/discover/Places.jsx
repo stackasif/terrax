@@ -46,7 +46,7 @@ export default function Places() {
     <main className="min-h-screen bg-[#f3f6fb] px-4 py-8 sm:px-6 sm:py-12 lg:px-10">
       <div className="mx-auto max-w-[1440px]">
         {/* Header */}
-        <header className="mb-8 sm:mb-10">
+        <header className="mb-8 sm:mb-10" data-aos="fade-left">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-600 sm:text-sm">
             Extraordinary Places
             <span className="px-2 text-slate-300">·</span>
@@ -70,6 +70,7 @@ export default function Places() {
 
         {/* Cards */}
         <section
+          data-aos="fade-up"
           aria-label="Extraordinary places around the world"
           className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3"
         >

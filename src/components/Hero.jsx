@@ -22,16 +22,17 @@ export default function Hero() {
         A MORE CONNECTED PLANET
       </p>
 
-      <h1 className="text-[60px] leading-none mt-2">
+      <h1 className="text-[60px] leading-none mt-2" data-aos="fade-right">
        <span className="text-[75px]"> Explore</span> <br />
         the world
       </h1>
 
-      <p className="mb-15 mt-3 text-[14px] text-gray-300">
+      <p className="mb-15 mt-3 text-[14px] text-gray-300" data-aos="fade-right">
         Discover countries, cities and remarkable <br /> places from every corner of our planet.
       </p>
 
       <Link
+        data-aos="fade-up"
         href="/country"
         className="rounded-full bg-blue-500 px-5 py-3 text-[14px] font-semibold text-white hover:bg-blue-700 flex items-center gap-2" 
       >

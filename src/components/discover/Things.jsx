@@ -51,7 +51,7 @@ export default function Things() {
         <header className="mb-8 sm:mb-10">
           <div className="flex justify-between items-center ">
             <div>
-              <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-600 sm:text-sm">
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-600 sm:text-sm" data-aos="fade-right">
                 Curious Facts
                 <span className="px-2 text-slate-300">·</span>
                 Real Stories
@@ -59,11 +59,12 @@ export default function Things() {
                 A Deeper World
               </p>
 
-              <h1 className="text-4xl font-extrabold leading-tight tracking-[-0.045em] text-[#102746] sm:text-5xl lg:text-6xl">
+              <h1 className="text-4xl font-extrabold leading-tight tracking-[-0.045em] text-[#102746] sm:text-5xl lg:text-6xl" data-aos="fade-right">
                 Things You Never Knew
               </h1>
             </div>
              <Link
+              data-aos="fade-left"
                 href={"/discover"}
                 className="bg-blue-100 mr-4 hover:bg-cyan-200 text-gray-800 rounded-full font-semibold inline-flex items-center gap-1 cursor-pointer p-3 border border-gray-300 text-[13px] shrink-0 self-center"
               >
@@ -72,7 +73,7 @@ export default function Things() {
             </Link>
           </div>
 
-          <p className="mt-4 max-w-4xl text-base leading-7 text-slate-500 sm:text-lg sm:leading-8">
+          <p className="mt-4 max-w-4xl text-base leading-7 text-slate-500 sm:text-lg sm:leading-8" data-aos="fade-up">
             Surprising facts, incredible stories, and hidden science
             about our planet. Explore the mysteries of nature, the
             secrets of Earth's past, and the discoveries that reveal
@@ -87,11 +88,12 @@ export default function Things() {
         >
           {articles.map((article) => (
             <article
+              data-aos="zoom-in"
               key={article.number}
               className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-[0_8px_30px_rgba(25,45,75,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(25,45,75,0.11)]"
             >
               {/* Article Image */}
-              <div className="relative h-64 overflow-hidden sm:h-72">
+              <div className="relative h-64 overflow-hidden sm:h-72" data-aos="zoom-in">
                 <img
                   src={article.image}
                   alt={article.alt}
@@ -105,7 +107,7 @@ export default function Things() {
               </div>
 
               {/* Article Content */}
-              <div className="flex flex-1 flex-col p-5 sm:p-6">
+              <div className="flex flex-1 flex-col p-5 sm:p-6" data-aos="fade-right">
                 <span
                   className={`mb-4 w-fit rounded-full px-3 py-1.5 text-[10px] font-extrabold tracking-[0.09em] ${article.color}`}
                 >
@@ -131,7 +133,7 @@ export default function Things() {
         </section>
 
         {/* Footer */}
-        <footer className="mt-10 border-t border-slate-200 pt-5">
+        <footer className="mt-10 border-t border-slate-200 pt-5" data-aos="zoom-in">
           <p className="text-xs leading-6 text-slate-400">
             Discover the fascinating science, hidden histories, and
             extraordinary natural processes that shape our world.

@@ -12,7 +12,7 @@ function HomeCard() {
   
   return (
     <>
-    <div className='mx-auto max-w-7xl flex justify-between items-center py-5 px-3'>
+    <div className='mx-auto max-w-7xl flex justify-between items-center py-5 px-3' data-aos="fade-up">
         <div>
             <h1 className='text-[40px] md:text-[50px] font-bold md:font-semibold leading-none md:leading-tight'>
                 Top Countries
@@ -30,11 +30,12 @@ function HomeCard() {
             </Link>
     </div>
 
-    <div className="mx-auto max-w-7xl flex flex-wrap justify-center gap-6">
+    <div className="mx-auto max-w-7xl flex flex-wrap justify-center gap-6" >
         
   {card.slice(0,8).map((item, ind) => {
     return (
       <div
+      data-aos="zoom-in"
         key={ind}
         className="w-[340px] md:w-[300px] h-[300px] md:h-[330px] flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md text-sm"
       >

@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
   AOS.init({
     duration: 800,
-    once: true,
+    once: false,
     offset: 100,
     easing: "ease-in-out",
   });

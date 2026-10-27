@@ -10,7 +10,7 @@ export default function Hero() {
   return (
    
 <div className="bg-gray-100">
-  <section className="relative  h-[450px] w-full overflow-hidden">
+  <section className="relative  h-[450px] w-full overflow-hidden" data-aos="fade-down">
   
   <Image
     src={sunset}
@@ -22,10 +22,10 @@ export default function Hero() {
 
   
   <div className="absolute inset-0 z-10">
-    <div className="mx-auto flex h-full w-full max-w-[1280px] flex-col items-start justify-center px-4 pb-2 text-white">
+    <div className="mx-auto flex h-full w-full max-w-[1280px] flex-col items-start justify-center px-4 pb-2 text-white" data-aos="fade-right">
       
 
-      <h1 className="text-[60px] font-semibold leading-none mt-2">
+      <h1 className="text-[60px] font-semibold leading-none mt-2" >
        
         About Our World
       </h1>
@@ -42,7 +42,7 @@ export default function Hero() {
   
       <div className="flex flex-col md:flex-row items-center gap-5  p-4 rounded-xl">
         
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2" data-aos="fade-right">
           <Image
             src={earth}
             alt="Planet Earth"
@@ -51,7 +51,7 @@ export default function Hero() {
         </div>
 
         
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2" data-aos="fade-left">
               <h2 className="text-3xl font-bold text-[#10264a] mb-2">
                 What is TERRAX?
               </h2>
@@ -78,7 +78,7 @@ export default function Hero() {
       </div>
 
       
-<div className="w-full  px-5 py-6 md:px-8">
+<div className="w-full  px-5 py-6 md:px-8" data-aos="fade-up">
   <h2 className="text-2xl md:text-3xl font-bold text-[#10264a]">
     Earth at a Glance
   </h2>
@@ -147,7 +147,7 @@ export default function Hero() {
 
       <div className="flex flex-col md:flex-row items-center gap-5  p-4 rounded-xl">
         
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2" data-aos="fade-right">
               <h2 className="text-3xl font-bold text-[#10264a] mb-2">
                 One planet. Many worlds.
               </h2>
@@ -165,7 +165,7 @@ export default function Hero() {
               </p>
         </div>
 
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2" data-aos="fade-left">
           <Image
             src={world}
             alt="Planet Earth"
@@ -180,7 +180,7 @@ export default function Hero() {
 
 
   </div>
-  <section className="relative h-[450px] w-full overflow-hidden">
+  <section className="relative h-[450px] w-full overflow-hidden "data-aos="fade-up">
     
     <Image
       src={earth}

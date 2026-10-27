@@ -27,7 +27,7 @@ console.log("Input type:", typeof input);
   return (
     <>
      {input.trim().length === 0 && (
-  <section className="relative w-full h-75 overflow-hidden">
+  <section className="relative w-full h-75 overflow-hidden" data-aos="fade-up">
     <Image
       src={countrybg}
       alt="Earth image"
@@ -39,7 +39,7 @@ console.log("Input type:", typeof input);
 
     <div className="absolute inset-0 z-10">
       <div className="mx-auto flex h-full w-full max-w-7xl flex-col items-start justify-center px-4 text-white">
-        <h1 className="text-[60px]">
+        <h1 className="text-[60px]" data-aos="fade-right">
           Explore Countries
         </h1>
         <p className="text-[16px]">
@@ -50,8 +50,8 @@ console.log("Input type:", typeof input);
   </section>
 )}
       
-<div className="mx-auto max-w-7xl px-3 sm:px-4">
-  <div className="my-5 flex w-full flex-col gap-3 sm:flex-row sm:gap-4">
+<div className="mx-auto max-w-7xl px-3 sm:px-4" data-aos="fade-up">
+  <div className="my-5 flex w-full flex-col gap-3 sm:flex-row sm:gap-4" >
 
     {/* Search Bar */}
     <div className="flex min-w-0 w-full items-center gap-3 rounded-2xl border border-gray-200 px-3 py-3 sm:flex-1 sm:py-4">
@@ -96,6 +96,7 @@ console.log("Input type:", typeof input);
   {filteredCountries.map((item, ind) => {
     return (
       <div
+        data-aos="zoom-in"
         key={ind}
        className="w-[340px] md:w-[300px] h-[300px] md:h-[330px] flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md text-sm">
         

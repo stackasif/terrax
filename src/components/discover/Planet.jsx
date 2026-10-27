@@ -91,7 +91,7 @@ export default function Planet() {
     <main className="min-h-screen bg-[#f3f6fb] px-4 py-8 sm:px-6 sm:py-12 lg:px-10">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
-        <header className="mb-10 sm:mb-14">
+        <header className="mb-10 sm:mb-14" data-aos="fade-left">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-blue-600 sm:text-sm">
             Space &amp; Cosmos
             <span className="px-2 text-slate-300">·</span>
@@ -113,6 +113,7 @@ export default function Planet() {
 
         {/* Alternating image and text rows */}
         <section
+          data-aos="fade-right"
           aria-label="Space discoveries and science articles"
           className="space-y-7 sm:space-y-9"
         >
@@ -123,6 +124,7 @@ export default function Planet() {
             >
               {/* Image side alternates */}
               <div
+              data-aos="zoom-in"
                 className={`relative min-h-64 overflow-hidden sm:min-h-80 md:min-h-full ${
                   article.imageSide === "right"
                     ? "md:order-2"
@@ -145,6 +147,7 @@ export default function Planet() {
 
               {/* Text side */}
               <div
+                data-aos="fade-left"
                 className={`flex flex-col justify-center p-6 sm:p-8 lg:p-10 ${
                   article.imageSide === "right"
                     ? "md:order-1"

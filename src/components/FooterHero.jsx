@@ -6,7 +6,7 @@ import { MoveRight } from 'lucide-react'
 
 function FooterHero() {
   return (
-    <section className="relative h-[450px] w-full overflow-hidden ">
+    <section className="relative h-[450px] w-full overflow-hidden " data-aos="fade-up">
     
     <Image
       src={sunset}
@@ -18,7 +18,7 @@ function FooterHero() {
   
     
     <div className="absolute inset-0 z-10">
-      <div className="mx-auto flex h-full w-full max-w-[1280px] flex-col items-start justify-center px-4 pb-2 text-white">
+      <div className="mx-auto flex h-full w-full max-w-[1280px] flex-col items-start justify-center px-4 pb-2 text-white" data-aos="fade-right">
         <p className="text-sm text-gray-300">
           A MORE CONNECTED PLANET
         </p>
